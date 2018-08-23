@@ -16,6 +16,7 @@ $(() => {
   $el.on("click", generate_Couplet);
 
   function generate_Couplet() {
+    $field.fadeOut(300);
     let couplet = `${get_random_word(oscillations)} Hue ${get_random_word(
       facialFeature
     )} Se ${get_random_word(phenomena)} ka ${get_random_word(actions)}.
@@ -23,7 +24,10 @@ $(() => {
       movement
     )}`;
     console.log(couplet,"   --Waah Waah! Waah Waah ;)");
-    $field.text(couplet);
+    setTimeout( () => {
+      $field.text(couplet);
+      $field.fadeIn(300);
+    }, 500)
   }
 
 
