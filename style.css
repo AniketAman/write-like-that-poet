@@ -1,0 +1,15 @@
+#field {
+  font-family: "Tangerine", cursive;
+  font-size: 5em;
+  padding: 1%;
+  background: #eee;
+  color: #444;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 3%;
+    background: black;
+    color: white;
+}
