@@ -28,25 +28,12 @@ $(() => {
 
 
   function get_all_jsons() {
-    $.get("/couplet-jsons/actions.json").done(resp => {
-      actions = resp.data;
-    });
-    $.get("/couplet-jsons/oscillation.json").done(resp => {
-      oscillations = resp.data;
-    });
-    $.get("/couplet-jsons/emotions.json").done(resp => {
-      emotions = resp.data;
-    });
-
-    $.get("/couplet-jsons/movement.json").done(resp => {
-      movement = resp.data;
-    });
-    $.get("/couplet-jsons/phenomena.json").done(resp => {
-      phenomena = resp.data;
-    });
-    $.get("/couplet-jsons/facialFeature.json").done(resp => {
-      facialFeature = resp.data;
-    });
+    actions = ["Phisalna", "Girna", "Tapakna", "Ulajhna", "Sulajhna", "Nikalna", "Sawarna"];
+    oscillations = ["Thikartey", "Simat-tey", "Jhulastey"];
+    emotions = ["Yaad", "Darata", "Hasata", "Rulata"];
+    movement = ["Duur Jaana", "Paas Aana", "Roshni Phailana", "Gumm ho Jaana"];
+    phenomena = ["Boond", "Oas", "Baarish", "Hawa"];
+    facialFeature = ["Nazaron", "Hothon", "Nainon", "Gaalon", "Maathey"];
   }
 
   get_all_jsons();
