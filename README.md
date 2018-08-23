@@ -1,4 +1,4 @@
-# write-like-poets
+# write-like-that-poet
 This repo is inspired by a pic a received on WhatsApp titled write like Gulzaar. 
 
 **I AM A GREAT FAN OF GULAZR WORK AND MEAN NO DISRESPECT IT IS ONLY FOR FUN.**
